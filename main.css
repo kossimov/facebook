@@ -1,0 +1,221 @@
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/inter-v12-latin-500.woff2') format('woff2'), 
+       url('../fonts/inter-v12-latin-500.woff') format('woff'); 
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/inter-v12-latin-600.woff2') format('woff2'), 
+       url('../fonts/inter-v12-latin-600.woff') format('woff'); 
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v12-latin-700.woff2') format('woff2'), 
+       url('../fonts/inter-v12-latin-700.woff') format('woff'); 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:  'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+.container {
+  width: 590px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* start facebook section  */
+.main-sec {
+  padding-bottom: 100px;
+}
+
+.facebook {
+  background: linear-gradient(180deg, #cfdde8 0%, #6591b8 100%);  
+  margin-bottom: 100px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 35px;
+  background-color: #6a96d8;
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.top-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.facebook-wrapper {
+  padding: 32px 35px;
+  background-color: #fff;
+}
+
+.facebook-heading {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #d9d9d9;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.facebook-heading::before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 1px;
+  width: 200px;
+  height: 1px;
+  background-color: #d9d9d9;
+}
+
+.facebook-heading::after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  right: 1px;
+  width: 200px;
+  height: 1px;
+  background-color: #d9d9d9;
+}
+
+.facebook-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.facebook-item {
+  display: flex;
+  flex-direction: row-reverse; 
+  margin-bottom: 78px;
+  /* width: 360px; */
+}
+
+.facebook-item:nth-child(odd) {
+  display: flex;
+  justify-content: flex-end;
+} 
+
+.facebook-item:last-child {
+  margin-bottom: 0;
+} 
+
+.time-text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.6);
+  opacity: 0.4;
+}
+
+.facebook-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px 16px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  background-color: #e6edf6;
+  border-radius: 4px;
+}
+
+.one {
+}
+
+.second-time {
+}
+
+.two {
+  background-color: #F2F2F2;
+}
+
+.three {
+}
+
+.fourth-time {
+}
+
+.four {
+  background-color: #FFC2C1;
+}
+
+.wrapper-buttom {
+  padding-top: 21px;
+  padding-right: 32px;
+  padding-bottom: 21px;
+  padding-left: 32px;
+  background-color: #fff;
+}
+
+.form {
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-input {
+  font-size: 18px;
+  line-height: 20px;
+  color: #00000099;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.send-btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #6A96D8;
+  background: none;
+  border: none;
+}
